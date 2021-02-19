@@ -23,6 +23,7 @@ export class ExpoMixpanelAnalytics {
   model?: string;
   osVersion: string | number;
   queue: any[];
+  n;
   superProps: any = {};
 
   constructor(token) {
@@ -44,7 +45,7 @@ export class ExpoMixpanelAnalytics {
       this.deviceName = Constants.deviceName;
       if (isIosPlatform && Constants.platform && Constants.platform.ios) {
         this.platform = Constants.platform.ios.platform;
-        this.model = Constants.platform.ios.model;
+        this.model = Constants.platform.ios.model!;
       } else {
         this.platform = "android";
       }

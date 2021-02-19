@@ -25,7 +25,9 @@
     "url": "https://github.com/codekadiya/expo-mixpanel-analytics/issues"
   },
   "dependencies": {
-    "buffer": "^5.2.1"
+    "buffer": "^5.2.1",
+    "expo-constants": "^10.0.1",
+    "tslib": "^2.1.0"
   },
   "peerDependencies": {
     "expo-constants": "^5.0.1",
