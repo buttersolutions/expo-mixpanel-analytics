@@ -28,9 +28,9 @@
     "buffer": "^5.2.1"
   },
   "peerDependencies": {
-    "expo-constants": "^5.0.1",
-    "react": "16.5.2",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "expo-constants": "~9.1.1",
+    "react": "~16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz"
   },
   "devDependencies": {
     "@types/expo": "^32.0.10",
