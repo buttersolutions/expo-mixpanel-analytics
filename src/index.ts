@@ -180,5 +180,4 @@ export class ExpoMixpanelAnalytics {
     return fetch(`${MIXPANEL_API_URL}/engage/?data=${data}`);
   }
 }
-
 export default ExpoMixpanelAnalytics;
