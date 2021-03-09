@@ -33,7 +33,7 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz"
   },
   "devDependencies": {
-    "@types/expo": "^32.0.10",
+    "@types/expo": "^33.0.1",
     "@types/react-native": "^0.57.43",
     "rimraf": "^2.6.3",
     "typescript": "^3.4.3"
